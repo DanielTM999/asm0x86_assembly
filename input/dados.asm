@@ -30,7 +30,7 @@ global _start ;inicio
 _start:
 
     mov EAX, SYS_WRITE ; prepara o metodo  de escrita
-    mov EBX, SYS_OUT; chama a saida
+    mov EBX, SYS_OVER; chama a saida
     mov ECX, question; pega a msg
     mov EDX, len; pega o tamanho da msg
     int CALL_METHOD; chama o karnel/mtd

@@ -37,7 +37,7 @@ _start:
 
 
     mov EAX, STD_IN; pega o valor da entrada
-    mov EBX, STD_OUT;devove o valor para o ponteiro
+    mov EBX, STD_OUT;devove o valor para o ponteiro pelo metodo de saida
     mov ECX, num1; pega o valor da variavel
     mov ECX, 0x1 ; cria um tamanho(pode ser menor mais não maior => posi ficaria sobrando bytes perda de ficioncia de memoria{sedo menos ele add + 1byte})
     int CALL_METHOD ; chama o karnel/mtd
